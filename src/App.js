@@ -9,10 +9,10 @@ import LibraryList from './components/LibraryList';
 const App = () => {
     return (
         <Provider store={ createStore(reducers) }>
-        <View>
+        <View style={{flex:1}}>
             <Header
                 leftComponent={{ icon: 'menu', color: '#fff' }}
-                centerComponent={{ text: 'MY TITLE', style: { color: '#fff' } }}
+                centerComponent={{ text: 'wooh redux', style: { color: '#fff' } }}
                 rightComponent={{ icon: 'home', color: '#fff' }}
                 />
 
