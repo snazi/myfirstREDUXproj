@@ -22,6 +22,7 @@ class ListItem extends Component {
               UIManager.setLayoutAnimationEnabledExperimental(true);
             LayoutAnimation.spring();
           }
+          
         LayoutAnimation.spring();
     }
 
